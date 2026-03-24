@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+nlp-service/models/
+node_modules/
+frontend/build/
+.DS_Store
+*.log
