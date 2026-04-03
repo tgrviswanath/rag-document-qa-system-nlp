@@ -1,0 +1,10 @@
+What are the three main types of machine learning?
+What is the difference between supervised and unsupervised learning?
+How does reinforcement learning work?
+What is overfitting and how can it be prevented?
+What is cross-validation and why is it used?
+What metrics are used to evaluate classification models?
+How does a random forest differ from a single decision tree?
+What are neural networks and how are they structured?
+What is logistic regression used for?
+What are some real-world applications of machine learning in healthcare?

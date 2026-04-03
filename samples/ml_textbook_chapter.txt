@@ -1,0 +1,41 @@
+Introduction to Machine Learning
+
+Machine learning is a branch of artificial intelligence that focuses on building systems that learn from data. Unlike traditional programming where rules are explicitly coded, machine learning algorithms identify patterns in data and improve their performance over time without being explicitly programmed.
+
+Types of Machine Learning
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+In supervised learning, the algorithm is trained on labelled data, meaning each training example has an input and a corresponding correct output. Common supervised learning tasks include classification (predicting a category) and regression (predicting a continuous value). Examples include email spam detection, image classification, and house price prediction.
+
+Unsupervised learning involves finding patterns in data without labelled examples. Clustering algorithms group similar data points together, while dimensionality reduction techniques compress data while preserving important structure. Applications include customer segmentation, anomaly detection, and topic modelling.
+
+Reinforcement learning trains agents to make sequences of decisions by rewarding desired behaviours and penalising undesired ones. The agent learns through trial and error, gradually improving its policy. This approach has achieved superhuman performance in games like Chess, Go, and various video games.
+
+Key Algorithms
+
+Linear regression models the relationship between input features and a continuous output variable. It assumes a linear relationship and minimises the sum of squared errors between predictions and actual values.
+
+Logistic regression, despite its name, is used for classification tasks. It models the probability that an input belongs to a particular class using the logistic function, which maps any real number to a value between 0 and 1.
+
+Decision trees partition the feature space into regions using a series of binary splits. Each internal node represents a test on a feature, each branch represents the outcome of the test, and each leaf node represents a class label or value.
+
+Random forests are ensemble methods that combine multiple decision trees. Each tree is trained on a random subset of the data and features, and predictions are made by averaging (regression) or voting (classification) across all trees.
+
+Neural networks are inspired by the structure of the human brain. They consist of layers of interconnected nodes (neurons) that transform input data through a series of non-linear operations. Deep neural networks with many layers can learn complex hierarchical representations.
+
+Model Evaluation
+
+Evaluating machine learning models requires careful consideration of the appropriate metrics. For classification tasks, common metrics include accuracy, precision, recall, F1 score, and area under the ROC curve. For regression tasks, mean squared error, mean absolute error, and R-squared are commonly used.
+
+Cross-validation is a technique for estimating model performance on unseen data. The dataset is split into k folds, and the model is trained k times, each time using a different fold as the validation set. The average performance across all folds provides a more reliable estimate than a single train-test split.
+
+Overfitting occurs when a model learns the training data too well, including noise and irrelevant patterns, resulting in poor generalisation to new data. Regularisation techniques such as L1 and L2 regularisation, dropout, and early stopping help prevent overfitting.
+
+Applications
+
+Machine learning has transformed numerous industries. In healthcare, ML models assist in medical image analysis, drug discovery, and personalised treatment recommendations. In finance, algorithms power fraud detection, credit scoring, and algorithmic trading. In transportation, machine learning enables autonomous vehicles, route optimisation, and demand forecasting.
+
+Natural language processing applications include machine translation, sentiment analysis, question answering, and text generation. Computer vision applications include object detection, facial recognition, and image segmentation.
+
+The field continues to advance rapidly, with large language models, multimodal systems, and autonomous agents representing the current frontier of research and development.
